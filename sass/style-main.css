@@ -1,0 +1,255 @@
+@charset "UTF-8";
+body {
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  margin: 0; }
+
+h2 {
+  font-size: 21px; }
+
+.container {
+  width: 1200px;
+  margin: auto;
+  box-shadow: 0px 2px 10px darkgrey;
+  padding-top: 5px; }
+
+.main-header .menu-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -69px; }
+.main-header nav {
+  font-weight: bold; }
+  .main-header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .main-header nav li {
+    display: block;
+    list-style-type: none;
+    width: 150px;
+    text-align: center; }
+    .main-header nav li a {
+      color: black;
+      text-decoration: none; }
+  .main-header nav li:nth-child(2) {
+    padding-right: 150px; }
+.main-header .welcome-picture {
+  width: auto;
+  height: 508px;
+  background-image: url("../pictures/main_back.png"); }
+.main-header .sedona-about {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.reasons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .reasons .photo {
+    width: 800px;
+    height: auto; }
+    .reasons .photo.photo_1 {
+      background-image: url("../pictures/photo_1.jpg"); }
+    .reasons .photo.photo_2 {
+      background-image: url("../pictures/photo_2.jpg"); }
+  .reasons .reason {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 400px;
+    padding: 56px 0;
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    text-align: center; }
+    .reasons .reason .reason-content {
+      margin: auto;
+      padding-left: 65px;
+      padding-right: 65px; }
+    .reasons .reason.highlighted {
+      color: white;
+      background-color: #81b3d2; }
+    .reasons .reason .number {
+      font-size: 14px;
+      font-weight: normal; }
+      .reasons .reason .number:before {
+        content: "– "; }
+      .reasons .reason .number:after {
+        content: " –"; }
+
+.facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .facts .fact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 400px;
+    padding: 71px 0;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center; }
+    .facts .fact .fact-content {
+      margin: auto;
+      padding-left: 65px;
+      padding-right: 65px; }
+
+.hotels {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  text-align: center; }
+  .hotels p {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 50px; }
+  .hotels h2 {
+    font-size: 30px; }
+  .hotels .search {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 15px 135px;
+    border: none;
+    background-color: #81b3d2;
+    color: white; }
+
+.map {
+  width: 1200px;
+  height: 350px;
+  background-image: url("../pictures/map.png"); }
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 120px; }
+  .main-footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 160px; }
+    .main-footer .social a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: #81b3d2;
+      width: 40px;
+      height: 40px; }
+      .main-footer .social a img {
+        margin: auto; }
+  .main-footer .hash-tag {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    width: 160px; }
+  .main-footer .htmlacademy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    width: 160px; }
+
+/*# sourceMappingURL=style-main.css.map */
