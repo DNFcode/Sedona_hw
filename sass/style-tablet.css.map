@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iEAAkE;EAChE,gBAAgB;IACd,OAAO,EAAE,IAAI;IAEb,gCAAe;MACb,OAAO,EAAE,KAAK;;EAElB,YAAY;IACV,OAAO,EAAE,IAAI;IAEb,0BAAa;MACX,OAAO,EAAE,KAAK;AAGpB,+EAA+E;EAC7E,gBAAgB;IACd,OAAO,EAAE,IAAI;IAEb,gCAAe;MACb,OAAO,EAAE,KAAK;;EAElB,YAAY;IACV,OAAO,EAAE,IAAI;IAEb,0BAAa;MACX,OAAO,EAAE,KAAK",
+"sources": ["style-tablet.sass"],
+"names": [],
+"file": "style-tablet.css"
+}

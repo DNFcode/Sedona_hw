@@ -1,0 +1,92 @@
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 10px; }
+
+  h2 {
+    font-size: 14px; }
+
+  .main-header .welcome-picture {
+    background: none;
+    height: auto;
+    overflow: hidden; }
+    .main-header .welcome-picture img {
+      display: block;
+      width: 240%;
+      position: relative;
+      left: 50%;
+      margin-left: -120%; }
+  .main-header nav ul {
+    display: block;
+    margin: 0; }
+    .main-header nav ul li {
+      width: 100%;
+      max-width: 100%;
+      padding: 12px 0;
+      background-color: #81b3d2;
+      box-shadow: inset 0px -1px 0px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
+      .main-header nav ul li a {
+        color: white; }
+      .main-header nav ul li:nth-child(2) {
+        padding-right: 0; }
+  .main-header .sedona-about {
+    padding: 20px 10%; }
+
+  .reasons .reason {
+    padding: 20px 0;
+    width: 100%;
+    display: block; }
+    .reasons .reason .reason-content {
+      padding: 0 17%; }
+    .reasons .reason .number {
+      font-size: 10px; }
+  .reasons .photo {
+    width: 100%; }
+  .reasons .reason {
+    position: relative; }
+    .reasons .reason:nth-of-type(2):after, .reasons .reason:nth-of-type(3):after {
+      content: "";
+      height: 1px;
+      width: 90%;
+      position: absolute;
+      left: 50%;
+      margin-left: -45%;
+      bottom: 1px;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0.27); }
+
+  .facts .fact {
+    padding: 10% 0;
+    width: 100%; }
+  .facts .fact-content {
+    position: relative; }
+    .facts .fact-content img {
+      position: absolute;
+      left: 15px;
+      top: 0;
+      width: 37px;
+      height: 37px; }
+    .facts .fact-content h2 {
+      text-align: left; }
+    .facts .fact-content p {
+      text-align: left; }
+
+  .hotels {
+    padding-bottom: 30px; }
+    .hotels p {
+      margin-bottom: 20px; }
+    .hotels h2 {
+      font-size: 16px; }
+    .hotels .search {
+      font-size: 16px;
+      padding: 10px 30px; }
+
+  .main-footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+    .main-footer .hash-tag {
+      padding: 10px 0; }
+    .main-footer div {
+      padding: 10px 0; } }
+
+/*# sourceMappingURL=style-mobile.css.map */

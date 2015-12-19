@@ -1,0 +1,119 @@
+@media only screen and (max-device-width: 480px)
+  body
+    font-size: 10px
+
+  h2
+    font-size: 14px
+
+  .main-header
+
+    .welcome-picture
+      background: none
+      height: auto
+      overflow: hidden
+
+      img
+        display: block
+        width: 240%
+        position: relative
+        left: 50%
+        margin-left: -120%
+
+    nav ul
+      display: block
+      margin: 0
+
+      li
+        width: 100%
+        max-width: 100%
+        padding: 12px 0
+        background-color: #81b3d2
+        box-shadow: inset 0px -1px 0px 0px rgba(1, 1, 1, 0.2),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4)
+
+        a
+          color: white
+
+        &:nth-child(2)
+          padding-right: 0
+
+    .sedona-about
+      padding: 20px 10%
+
+  .reasons
+
+    .reason
+      padding: 20px 0
+      width: 100%
+      display: block
+
+      .reason-content
+        padding: 0 17%
+
+      .number
+        font-size: 10px
+
+    .photo
+      width: 100%
+
+
+    .reason
+      position: relative
+
+      &:nth-of-type(2):after,
+      &:nth-of-type(3):after
+        content: ""
+        height: 1px
+        width: 90%
+        position: absolute
+        left: 50%
+        margin-left: -45%
+        bottom: 1px
+        z-index: 10
+        background-color: rgba(0, 0, 0, 0.27)
+
+
+  .facts
+
+    .fact
+      padding: 10% 0
+      width: 100%
+
+    .fact-content
+      position: relative
+
+      img
+        position: absolute
+        left: 15px
+        top: 0
+        width: 37px
+        height: 37px
+
+      h2
+        text-align: left
+
+      p
+        text-align: left
+
+  .hotels
+    padding-bottom: 30px
+
+    p
+      margin-bottom: 20px
+
+    h2
+      font-size: 16px
+
+    .search
+      font-size: 16px
+      padding: 10px 30px
+
+  .main-footer
+    flex-direction: column
+    align-items: center
+    padding: 0
+
+    .hash-tag
+      padding: 10px 0
+
+    div
+      padding: 10px 0
